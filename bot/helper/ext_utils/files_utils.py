@@ -277,10 +277,10 @@ async def split_file(path, size, file_, dirpath, split_size, listener, start_tim
 async def format_filename(file_, user_id, dirpath=None, isMirror=False):
     user_dict = user_data.get(user_id, {})
     prefix = user_dict.get('prefix', '')
-    remname = user_dict.get('remname', '')
+    remname = user_dict.get('remname', '{filename} ~ UltroidxTeam')
     suffix = user_dict.get('suffix', '')
     lcaption = user_dict.get('lcaption', '')
-    metadata = user_dict.get('metadata', '')
+    metadata = user_dict.get('metadata', 'UltroidxTeam')
     prefile_ = file_
     file_ = re_sub(r'www\S+', '', file_)
 
