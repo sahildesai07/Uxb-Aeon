@@ -624,8 +624,8 @@ section span{
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/weebzone/WZML"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/krn_adhikari"><i class="fab fa-telegram"></i></a>
+        <a href="https://www.github.com/sahildesai07/Uxb-Aeon"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/ultroidxTeam"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <section>
@@ -780,7 +780,7 @@ def set_priority(id_):
 
 @app.route('/')
 def homepage():
-    return "<h1>See WZML-X <a href='https://www.github.com/weebzone/WZML'>@GitHub</a> By <a href='https://github.com/weebzone'>Code With Weeb</a></h1>"
+    return "<h1>See UxB-Aeon <a href='https://www.github.com/sahildesai07/Uxb-Aeon'>@GitHub</a> By <a href='https://github.com/sahildesai07'>Code With Uxb</a></h1>"
 
 
 @app.errorhandler(Exception)
